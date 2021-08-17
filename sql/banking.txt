@@ -1,5 +1,6 @@
 CREATE TABLE clients(
     c_id int(3) PRIMARY KEY AUTO_INCREMENT,
+    img BLOB,
     c_name varchar(20) NOT NULL,
     c_mail varchar(20) UNIQUE,
     c_balance int(10) NOT NULL
